@@ -1,0 +1,24 @@
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    background-image: url(../../public/assets/img/svg/BackgroundHome.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* border: solid; */
+    /* border-color: red; */
+}
+
+section>img{
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%);
+}
